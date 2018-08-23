@@ -1,0 +1,380 @@
+/*
+* @Author: Administrator
+* @Date:   2018-06-27 18:39:53
+* @Last Modified by:   admin
+* @Last Modified time: 2018-06-29 09:07:31
+*/
+*{
+	list-style: none;
+	margin: 0;
+	padding:0;
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 70px;
+	background: #333333;
+	display: block;
+}
+body{
+	width: 100%;
+	background:#f9f9f9;
+}
+.phone-head .phone-head-content{
+	display:none;
+}
+.qfy{
+	width:100%;
+
+}
+/* 内容第一部分 */
+.qfy .qfy-section-one{
+	background:url('../images/fqy-example-content-one-bg.jpg') no-repeat;
+	width:100%;
+	height:310px;
+	background-size: 100% auto;
+	// filter:grayscale(50%);
+}
+.qfy .qfy-section-one .container-fluid{
+	padding:0;
+}
+.qfy .qfy-section-one .coverbg{
+	width:100%;
+	height:310px;
+	background:rgba(48,48,48,0.2);
+	overflow: hidden;
+}
+.qfy .qfy-section-one .coverbg .content-one{
+	width:1190px;
+	margin:0 auto;
+	color:white;
+}
+.qfy .qfy-section-one .coverbg .content-one h2{
+	margin-top:100px;
+	font-size:35px;
+	margin-bottom:25px;
+}
+.qfy .qfy-section-one p{
+	font-size: 16px;
+	margin-bottom:10px;
+	color:#d3d3d3;
+}
+/* 内容第二部分 左边内容*/
+.qfy .qfy-section-two{
+	width: 100%;
+	background:#f9f9f9;
+}
+.qfy .qfy-section-two .content-two{
+	width: 1400px;
+	background:#f9f9f9;
+	margin: 0 auto;
+}
+.qfy .qfy-section-two .content-two .container-fluid{
+/* 	background: #eee; */
+	padding: 0;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.qfy .qfy-section-two .content-two .content-two-left{
+	width: 190px;
+	float: left;
+	padding-top: 90px;
+}
+.qfy .qfy-section-two .content-two .content-two-left i{
+	display:none;
+}
+// .qfy .qfy-section-two .content-two .content-two-left .hidden1{
+// 	display:none;
+// }
+.qfy .qfy-section-two .content-two .content-two-left ul{
+	width: 100%;
+}
+.qfy .qfy-section-two .content-two .content-two-left ul li{
+	width: 98%;
+	height: 48px;
+	overflow: hidden;
+	height: 48px;
+	line-height: 48px;
+	color: #5b5b5b;
+	// font-weight: 600;
+	padding-right: 2%;
+}
+.qfy .qfy-section-two .content-two .content-two-left ul .show{
+	overflow: visible;
+	height: auto;
+}
+.qfy .qfy-section-two .content-two .content-two-left ul .current{
+	background: #ededed;
+
+}
+.qfy .qfy-section-two .content-two .content-two-left ul li p{
+	width: 100%;
+	height: 48px;
+	display: block;
+	margin: 0;
+	padding-left: 30px;
+	font-size: 15px;
+	border-bottom: 1px solid #efefef;
+	position: relative;
+	cursor: pointer;
+}
+.qfy .qfy-section-two .content-two .content-two-left ul li p:hover{
+	background: #ededed;
+}
+.qfy .qfy-section-two .content-two .content-two-left ul li p::after{
+	content:"";
+	position:absolute;
+	border-top:5px solid transparent;
+	border-bottom:5px solid transparent;
+	border-left:5px solid #5b5b5b;
+	border-right:5px solid transparent;
+	left:18px;
+	top:18px;
+}
+.qfy .qfy-section-two .content-two .content-two-left ul li a{
+	width: 100%;
+	height: 48px;
+	display: block;
+	text-decoration: none;
+	padding-left: 50px;
+	font-size: 15px;
+	color: #5b5b5b;
+	border-bottom: 1px solid #efefef;
+	position: relative;
+}
+.qfy .qfy-section-two .content-two .content-two-left ul li a:hover{
+	background: #ededed;
+}
+.qfy .qfy-section-two .content-two .content-two-left ul li a::after{
+	content:"";
+	position:absolute;
+	border-top:5px solid transparent;
+	border-bottom:5px solid transparent;
+	border-left:5px solid #5b5b5b;
+	border-right:5px solid transparent;
+	left:38px;
+	top:18px;
+}
+/* 第二部分内容 右边内容 */
+.qfy .qfy-section-two .content-two .content-two-right{
+	width: 1110px;
+
+	float: left;
+	border-left: 1px solid #e2e2e2;
+	padding-top: 90px;
+}
+.qfy .qfy-section-two .content-two .content-two-right .container-fluid{
+	padding: 0;
+}
+.qfy .qfy-section-two .content-two .content-two-right ul{
+	width: 100%;
+}
+.qfy .qfy-section-two .content-two .content-two-right ul .hidden2{
+	display:none;
+}
+.qfy .qfy-section-two .content-two .content-two-right ul li{
+	width: 49%;
+	float: left;
+	margin-left: 1%;
+	margin-bottom: 45px;
+	transition: all 0.5s linear;
+}
+.qfy .qfy-section-two .content-two .content-two-right ul li img{
+	max-width: 100%;
+	margin:0 auto;
+	display:block;
+}
+.qfy .qfy-section-two .content-two .content-two-right ul li h2{
+	color: #373a41;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.qfy .qfy-section-two .content-two .content-two-right ul li p{
+	color: #555555;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0;
+}
+.qfy .qfy-section-two .content-two .content-two-right .right-btn{
+	width:128px;
+	height:33px;
+	display:block;
+	background:#48a3fe;
+	color:white;
+	margin:0 auto;
+	font-size:14px;
+	box-shadow:none;
+	border: none;
+}
+@media (max-width: 1400px){
+	.qfy .qfy-section-two .content-two{
+	width: 100%;
+	
+	}
+	.qfy .qfy-section-two .content-two .content-two-left{
+		width: 20%;
+	}
+	.qfy .qfy-section-two .content-two .content-two-right{
+		width: 80%;
+	}
+}
+@media (max-width: 1000px){
+	.qfy .qfy-section-two .content-two .container-fluid{
+/* 	background: #eee; */
+	padding: 0;
+	// padding-left: 50px;
+	// padding-right: 50px;
+	}
+	.qfy .qfy-section-two .content-two .content-two-left{
+		width: 100%;
+		padding-top: 20px;
+		// float: left;
+	}
+	.qfy .qfy-section-two .content-two .content-two-left i{
+	width:236px;
+	height:47px;
+	background:black;
+	color:white;
+	display:block;
+	font-style:normal;
+	margin:0 auto;
+	text-align: center;
+	line-height:47px;
+	cursor:pointer;
+	position:relative;
+	font-size:16px;
+	}
+	.qfy .qfy-section-two .content-two .content-two-left i::after{
+	content:"";
+	background:black;
+	height:7px;
+	width:7px;
+	border-right:2px solid white;
+	border-bottom:2px solid white;
+	transform:rotate(45deg);
+	position:absolute; 
+	top: 19px;
+	right:10px;
+	}
+	.qfy .qfy-section-two .content-two .content-two-left ul{
+		width: 100%;
+		display:none;
+	}
+	.qfy .qfy-section-two .content-two .content-two-left ul li{
+		width:236px;
+		height:47px;
+		overflow: hidden;
+		background:black;
+		color:white;
+		margin:0 auto;
+	}
+	.qfy .qfy-section-two .content-two .content-two-left ul li p{
+		border-bottom: 0px solid #efefef;
+	}
+	.qfy .qfy-section-two .content-two .content-two-left ul li a{
+		color:white;
+		height:47px;
+		border-bottom: 0px solid #efefef;
+	}
+	.qfy .qfy-section-two .content-two .content-two-left ul li a:hover{
+		background:black;
+	}
+	.qfy .qfy-section-two .content-two .content-two-left ul li p:hover{
+		background:black;
+	}
+	.qfy .qfy-section-two .content-two .content-two-left ul .current{
+		background: black;
+	}
+	.qfy .qfy-section-two .content-two .content-two-right{
+		width:98%;
+		margin-left:2%;
+		padding-top:20px;
+	}
+	.qfy .qfy-section-two .content-two .content-two-right ul li{
+	width: 98%;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	}
+	.qfy .qfy-section-two .content-two .content-two-right .right-btn{
+		width:98%;
+		margin-right:2%;
+	}
+
+	.qfy .qfy-section-one{
+		height:auto;
+		background-size: 100% auto; 
+	}
+	.qfy .qfy-section-one .container-fluid{
+		padding:0;
+	}
+	.qfy .qfy-section-one .coverbg{
+		overflow: hidden;
+		height:auto;
+	}
+	.qfy .qfy-section-one .coverbg .content-one{
+		width:770px;
+		margin:0 auto;
+	}
+	.qfy .qfy-section-one .coverbg .content-one h2{
+		margin-top:0px;
+		font-size:35px;
+		word-wrap:break-word;
+		line-height:55px;
+	}
+	.qfy .qfy-section-one p{
+		margin-bottom:0px;
+		word-wrap:break-word;
+		line-height:30px;
+	}
+	.phone-head{
+		background:url('../images/qfy-example-head-bg.jpg') no-repeat;
+		height:100%;
+		mid-height:347px;
+		width:100%;
+		background-size: cover; 
+	}
+	.phone-head .phone-head-content{
+		width:770px;
+		margin:0 auto;
+		color:white;
+		display:block;
+	}
+	.phone-head .phone-head-content img{
+		margin-top:50px;
+		margin-bottom:30px;
+	}
+	.phone-head .phone-head-content p{
+		font-size:16px;
+	}
+	.phone-head .phone-head-content button{
+		background:#0088c2;
+		width:154px;
+		height:52px;
+		border:0px;
+		border-radius: 5px;
+		box-shadow: none;
+		margin-top:35px;
+		font-size:20px;
+		margin-bottom:40px;
+	}
+	.phone-head .phone-head-content button:hover{
+		background:rgba(94,135,176,1);
+	}
+}
+@media (max-width: 800px){
+	.phone-head .phone-head-content{
+		width:93%;
+		
+	}
+	.qfy .qfy-section-one .coverbg .content-one{
+		width:93%;
+		
+	}
+}
+@media (max-width: 325px){
+	.qfy .qfy-section-one{	
+		background-size: 100% 100%; 
+	}
+}

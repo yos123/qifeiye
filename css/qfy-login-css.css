@@ -1,0 +1,203 @@
+*{
+	list-style: none;
+	margin: 0;
+	padding:0;
+	text-decoration: none;
+}
+html{
+	width: 100%;
+	height: 100%;
+}
+.qfy header{
+	width: 100%;
+	height: 150px;
+	background: #333;
+	display: block;
+	color:white;
+	position: relative;
+}
+.qfy header span{
+	width: 30px;
+	height: 30px;
+	font-size: 30px;
+	right: 44px;
+	top: 30px;
+	position: absolute;
+	cursor: pointer;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+.qfy{
+	width: 100%;
+	background: #333333;
+	height: 100%;
+	color: #cccccc;
+	min-height: 780px;
+	height: 100%;
+}
+.qfy .qfy-section-one{
+	width: 100%;
+}
+.qfy .qfy-section-one .content-one{
+	/* width: 100%; */
+} 
+.qfy .qfy-section-one .content-two{
+	padding-top: 15px;
+	letter-spacing: 6px;
+	font-size: 12px;
+	text-align: center;
+}
+.qfy .qfy-section-one .content-two span{
+	display: inline-block;
+	width: 180px;
+	padding-left: 10px;
+}
+.qfy .qfy-section-one .small-box-center{
+	width: 422px;
+	height: 412px;
+	margin: 0 auto;
+	padding-left: 39px; 
+	margin-top: 64px;
+}
+.qfy .qfy-section-one .small-box-center .content-three p{
+	font-size: 15px;
+	font-weight:normal;
+	letter-spacing: 1px;
+	margin-bottom: 13px;
+	margin-top: 17px;
+	cursor: pointer;
+}
+.qfy .qfy-section-one .small-box-center .content-three .input-input{
+	width: 100%;
+	height: 30px;
+	border: 1px solid #5b5b5b;
+	border-radius: 3px;
+	background: transparent;
+	padding-left: 10px;
+	outline: none;
+	transition: all 0.5s;
+}
+.qfy .qfy-section-one .small-box-center .content-three .input-input:focus{
+	border-color:#dedede;
+}
+.qfy .qfy-section-one .small-box-center .content-three .remember{
+	/* height: 16px;
+	width: 100%; */
+	display: block;
+}
+.qfy .qfy-section-one .small-box-center .content-three .remember P{
+	display: inline-block;
+	font-size: 15px;
+	margin-left: 5px;
+	font-weight: 100;
+}
+.qfy .qfy-section-one .small-box-center .content-three .remember input{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	position: relative;
+	top: 4px;
+	border: 1px solid #5b5b5b;
+}
+.qfy .qfy-section-one .small-box-center .content-four{
+	width: 100%;
+	height: 139px;
+	margin-top: 2px;
+	border-top: 1px solid #e5e5e5;
+	padding-top: 16px;
+}
+.qfy .qfy-section-one .small-box-center .content-four button{
+	width: 100%;
+	height: 32px;
+	margin-bottom: 5px;
+	border: 1px solid #e5e5e5;
+	outline: none;
+	border-radius: 3px;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+.qfy .qfy-section-one .small-box-center .content-four .color1{
+	background: #e4e4e4;
+	color: black;
+}
+.qfy .qfy-section-one .small-box-center .content-four .color2{
+	background: transparent;
+	color: #e5e5e5;
+}
+.qfy .qfy-section-one .small-box-center .content-four div{
+	margin-top: 3px;
+	width: 100%;
+}
+.qfy .qfy-section-one .small-box-center .content-four div span{
+	font-size: 15px;
+	
+}
+.qfy .qfy-section-one .small-box-center .content-four div i{
+	font-size: 23px;
+	background: white;
+	border-radius: 50px;
+	width:100%;
+	margin-right: 3px;
+}
+.qfy .qfy-section-one .small-box-center .content-four div .qq{
+	color: #4ba7ff;
+}
+.qfy .qfy-section-one .small-box-center .content-four div .wechat{
+	color: #0bc631;
+	font-size: 24px;
+}
+.qfy .qfy-section-one .small-box-center .content-four div .google{
+	color: #f53835;
+	font-size: 24px;
+}
+.qfy .qfy-section-one .small-box-center .content-four div .facebook{
+	color: #35539e;
+}
+.qfy .qfy-section-one .small-box-center .content-five{
+	width: 100%;
+	margin-top: 5px;
+}
+.qfy .qfy-section-one .small-box-center .clear{
+	clear: both;
+}
+.qfy .qfy-section-one .small-box-center .content-five a{
+	float: right;
+	font-size: 15px;
+	text-decoration: none;
+	color: #cccccc;
+	letter-spacing: 1px;
+}
+
+@media (max-width:1000px){
+	.qfy header{
+		height: 60px;
+	}
+	.qfy header span{
+		display: none;
+	}
+	.qfy .qfy-section-one .content-one{
+		display: none;
+	} 
+	.qfy .qfy-section-one .content-two{
+		display: none;
+	}
+	.qfy .qfy-section-one .small-box-center{
+		margin-top: 30px;
+	}
+}
+@media (max-width:768px){
+	.qfy .qfy-section-one .container{
+		width: 100%;
+	}
+	.qfy .qfy-section-one .small-box-center{
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.qfy .qfy-section-one .small-box-center .content-four button{
+		width: 56px;
+		margin-right: 20px;
+	}
+}

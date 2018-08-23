@@ -1,0 +1,304 @@
+/*
+* @Author: YE
+* @Date:   2018-06-28 19:34:20
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-07-01 19:27:19
+*/
+.yep{
+    background-image: url("../images/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.yep-box{
+    width: 50%;
+    position: relative;
+    margin: 7% auto;
+    color: white;
+    z-index: 3;
+    margin-bottom: 3%;
+}
+.yep .container-fluid{
+    background-color: rgba(48,48,48,0.5);
+    width: 100%;
+    height:100%;
+    position: absolute;
+    left: 0;
+    z-index: 2;
+}
+.yep-box .h5{
+    margin-top: 30px;
+    font-size: 14px;
+}
+.yep-box-1{
+	width: 75%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.yep-box-1 input{
+	width: 100%;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	margin-top: 20px;
+}
+.yep-box-1 a{
+	
+	display: block;
+	padding: 12px 25px;
+	background-color: #3ea3ff;
+	color: white;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -13px;
+	font-size: 16px;
+}
+.yep-box-1 a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+.yep-1{
+	border-top: 1px solid #d5d5d5;
+	margin-top: 70px;
+}
+.yep-span-3{
+	display: block;
+	background-color: white;
+	margin-top: -3%;
+	margin-left: -15px;
+/* 	width: 22%; */
+}
+.yep-span-3 h3{
+	font-size: 27px;
+}
+.yep-1 .media{
+	width: 30%;
+	position: relative;
+	margin-top: 40px;
+	border: 1px solid #e0e0e0;
+	margin-right: 5%;
+	float: left;
+	transition: all 0.5s;
+}
+@media (max-width: 980px){
+	.yep-1 .media{
+		width: 100%;
+	}
+}
+.yep-1 .media:hover{
+	border: 1px solid #3ea3ff;
+	transition: all 0.5s;
+}
+.yep-1 .media:nth-child(4){
+	margin-right: 0;
+}
+.yep-1 .media:nth-child(7){
+	margin-right: 0;
+}
+.yep-1 .media .media-left{
+	padding: 30px 35px;
+	padding-bottom: 80px;
+}
+.yep-1 .media .media-body{
+	padding-top: 36px;
+    position: relative;
+    padding-left: 96px;
+    margin-left: 51px;
+    padding-bottom: 40px;
+}
+.yep-1 .media .media-body a:nth-child(2){
+	display: inline-block;
+	margin-top: 15px;
+}
+.yep-1 .media .media-body a{
+	line-height: 30px;
+	color: #808080;
+}
+.yep-1 .media .media-body a:hover{
+	text-decoration: none;
+	color: #808080;
+}
+.yep-1 .media  .media-left a:nth-child(3){
+	color: #3ea3ff;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    position: absolute;
+    bottom: 50px;
+    left: 32px;
+    border-radius: 20px;
+    z-index: 10;
+}
+.yep-1 .media  .media-left a:nth-child(3):hover{
+	text-decoration: none;
+	border: 1px solid #3ea3ff;
+	transition: all 0.5s;
+}
+.yep-1 .media .media-left .media-current{
+	position: absolute;
+	top: 30px;
+	left: 35px;
+	display: block;
+	transition: all 2s;
+}
+.yep-1 .media .media-left .media-hide{
+	position: absolute;
+	top: 30px;
+	left: 35px;
+	display: none;
+	transition: all 0.5s;
+}
+
+.yep-5 .yep-5-left{
+    width: 35%;
+    padding-top: 5%;
+}
+.yep-5 .yep-span-3{
+    font-size: 16px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    display: block;
+    margin: 4% 0;
+}
+.yep-5 .yep-5-left{
+    float: left;
+
+}
+.yep-5 .yep-5-left p a{
+    display: inline-block;
+}
+.yep-5 .yep-5-left p:nth-child(2){
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+.yep-5 .yep-5-left p:nth-child(3){
+    font-size: 16px;
+    font-weight: bold;
+}
+.yep-5 .yep-5-left p:nth-child(3) a{
+    text-decoration: none;
+    font-size: 15px;
+}
+.yep-5 .yep-5-left p:nth-child(3) a:hover{
+    color: #337ab7;
+}
+.yep-5 .yep-5-left p:nth-child(4){
+     font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 8%;
+}
+.yep-5 .yep-5-right {
+    float: right;
+    width: 65%;
+    margin-top: 8%;
+}
+.yep-5 .yep-5-right .col-lg-2 ul li{
+    margin: 15px 0;
+}
+.yep-5 .yep-5-right .col-lg-2 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.yep-5 .yep-5-right .col-lg-2 ul li a:hover{
+    color: #337ab7;
+}
+.yep-5 .yep-5-right .col-lg-2 .yep-span-2{
+    font-family: "微软雅黑";
+    display: block;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.yep-5 .yep-5-right .col-lg-4 ul li{
+    margin: 15px 0;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+.yep-5 .yep-5-right .col-lg-4 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.yep-5 .yep-5-right .col-lg-4 ul li a:hover{
+    color: #337ab7;
+}
+.yep-5 .yep-5-right .col-lg-4 .yep-span-2{
+    font-family: "微软雅黑";
+    display: block;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.yep-6{
+    margin-top: 50px;
+    border-top: 1px solid #cecece;
+    border-bottom: 1px solid #cecece;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.yep-7{
+    margin-top: 30px;
+}
+.yep-7 a{
+    margin-left: 2%;
+}
+
+.yep-8 img{
+    left: 50%;
+    width: 32px;
+    height:45px;
+    margin-left:-16px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.yep-9{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+    .yep-5 .yep-5-right .col-lg-2 .yep-span-2{
+        font-size: 16px !important;
+    }
+    .yep-5 .yep-5-right .col-lg-4 .yep-span-2{
+        font-size: 16px !important;
+    }
+    .yep-box{
+    	width: 80%;
+    }
+}
+@media (max-width: 990px) {
+    .yep-5 .yep-5-right{
+        display: none;
+    }
+    .yep-5 .yep-5-left{
+        width: 100%;
+        padding-top: 5%;
+        margin-left: 30px;
+    }
+    .yep-box{
+    	width: 100%;
+    }
+    .yep-box .h5{
+    	width: 100%;
+    }
+
+}
+@media (max-width: 768px){
+    .yep-5 .yep-5-left{
+        width: 95%;
+        padding-top: 5%;
+        padding-right: 20px;
+        margin-left: 50px;
+    }
+}

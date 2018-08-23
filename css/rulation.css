@@ -1,0 +1,131 @@
+/*
+* @Author: admin
+* @Date:   2018-06-29 14:13:25
+* @Last Modified by:   admin
+* @Last Modified time: 2018-06-29 15:11:01
+*/
+body{
+	background: #e8e4e4;
+}
+.content{
+	margin-top: 20px;
+}
+.content .container{
+	border: 1px solid #ccc;
+	background: white;
+}
+.content .col-md-12{
+	padding: 50px;
+	background: #61b0ff;
+}
+.content .input-group-addon{
+	color: #61b0ff;
+}
+.content  .form-control{
+    height: 40px;
+}
+.content .text-header .col-left{
+	padding-left: 15px;
+}
+.content .text-header .col-right{
+	padding-right: 15px;
+}
+.content .img-header .col-md-4{
+	border: 1px solid #e2e2e2;
+	width: 100%;
+	margin-right: 2%;
+	margin-bottom: 20px;
+	transition: all 2s;
+    padding: 8px;
+}
+.content .img-header .col-md-4:nth-child(3n){
+	margin-right: 0px;
+}
+.content .img-header img{
+	width: 100%;
+}
+
+.content .text-header a{
+	display: inline-block;
+	width: 100%;
+	border: 1px solid #e2e2e2;
+	color: #333333;
+	font-size: 18px;
+	height: 55px;
+	line-height: 55px;
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+.content .col-md-12 h2{
+    font-family: 微软雅黑;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    color: #ffffff
+}
+.content .col-md-12 .input-group{
+	margin-top: 14px;
+}
+.content .col-md-9{
+	background: white;
+	border-right: 1px solid #ccc;
+	padding: 45px 40px;
+}
+.content .col-md-3{
+	background: white;
+	border-left: none;
+}
+.content .col-md-3{
+	padding-top: 45px;
+} 
+.content .col-md-3 .aright{
+	padding-left: 33px;
+}
+.content .col-md-3 .active{
+	background: #f0f0f0;
+}
+.content .col-md-3 a.active:hover{
+	background: #f0f0f0;
+	color: #5b5b5b;
+}
+.content .col-md-3 a,.content .col-md-3 span{
+	color: #5b5b5b;
+	border: none;
+}
+.content .col-md-3 a{
+	margin-bottom: 1px;
+}
+
+
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) { 
+	.content .img-header .col-md-4{
+		width: 32%;
+	}
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) { 
+	.content .img-header .col-md-4{
+		width: 32%;
+	}
+	.content .text-header .col-left{
+		padding-left: 0px;
+	}
+	.content .text-header .col-right{
+		padding-right: 0px;
+	}
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) { 
+	.content .img-header .col-md-4{
+		width: 32%;
+	}
+	.content .text-header .col-left{
+		padding-left: 0px;
+	}
+	.content .text-header .col-right{
+		padding-right: 0px;
+	}
+}

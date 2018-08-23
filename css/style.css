@@ -1,0 +1,426 @@
+/*
+* @Author: Administrator
+* @Date:   2018-06-26 18:14:47
+* @Last Modified by:   admin
+* @Last Modified time: 2018-08-22 14:42:20
+*/
+
+#myjumbotron{
+	height: 500px;
+	position: relative;
+    background: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 1px;
+    overflow: hidden;
+}
+.bg{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(48,38,38,0.7);
+    position: absolute;
+    top: -1px;
+    z-index: 10;
+}
+video{
+    position: absolute;
+    width: 100%;
+}
+#myjumbotron .jcontent{
+    height: 300px;
+    width: 322px;
+    position: absolute;
+    left: 50%;
+    margin-left: -161px;
+    margin-top: 70px;
+    z-index: 11;
+
+}
+#myjumbotron .jcontent h2{
+    font-family: 微软雅黑;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    color: #c3c3c3;
+    margin-bottom: 10px;
+}
+#myjumbotron .text-line{
+    display: inline-block;
+    position:relative;
+    animation:line .8s infinite;
+}
+@keyframes line{
+     0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+#myjumbotron .jcontent p{
+    color: rgb(195, 195, 195);	
+    font-size: 18px;
+    font-family: 微軟正黑體;
+}
+#myjumbotron .jcontent .btn{
+    font-family: 微軟正黑體;
+    padding: 15px 60px;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+}
+#myjumbotron .jcontent .btn:hover{
+	background-color: rgb(255, 255, 255);
+    color: rgb(177, 177, 177);
+}
+#myjumbotron  .jb-icon{
+	color: white;
+	margin-top: 600px;
+	font-size: 18px;
+}
+.section h4{
+    font-size: 20px;
+}
+.section1{
+	padding: 50px 0;
+}
+.section1 h3{
+    font-family: fad4e4105d559c01bebe496c3bde7fdac;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    color: #333333;
+    padding: 0 0 15px 0;
+    display: block;
+    padding: 0 0 15px 0;
+    vertical-align: bottom;
+}
+.section1 p{
+    font-family: fb5865c21b61a54b3e65b2340b78a7619;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: #666666;
+    display: block;
+    vertical-align: bottom;
+    margin-bottom: 20px;
+}
+.section1-img img{
+	margin: 0 auto;
+}
+.section{
+    padding: 50px 0;
+    text-align: center;
+}
+.seciton h4{
+    font-family: 微软雅黑;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 30px;
+    font-size: 34px;
+}
+.section2{
+	background: #f9f9f9;
+}
+.section2 h4{
+    color: #333333;
+}
+.section2 .ma-top{
+    margin-top: 0px !important;
+}
+.section p{
+    color: rgb(105, 105, 105);
+    line-height: 2;
+}
+.section3 h4{
+    color: #3ea3ff;
+}
+.section4 h4{
+    color: #333333;
+}
+.section5 h4{
+    font-size: 34px;
+}
+.section5 .container{
+    /* width: 1000px; */
+}
+.section6 .col{
+    box-sizing: border-box;
+    border: 1px solid rgba(204,204,204,1);
+    margin-right: 0%;
+    margin-bottom: 20px; 
+    padding: 30px 0;
+    transition: .2s;
+}
+.section6 .col:hover{
+    background: #ffd3d3;
+}
+.section6 .col span{
+    display: block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: rgb(73, 73, 73);
+    font-weight: bold;
+}
+.section6 .col-md-4{
+    width: 100%;
+}
+
+.hidden{
+    display: none;
+}
+.section h4{
+    font-size: 20px;
+}
+.section p{
+    font-size: 15px;
+    color: #A9A9A9;
+    margin-top: 30px
+}
+.section8 img{
+    width: 100%;
+}
+.section8 button{
+    font-family: 微软雅黑;
+    font-size: 16px;
+    padding: 8px 50px;
+    border-width: 1px;
+    border-color: rgb(97, 176, 255);
+    background-color: rgb(97, 176, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 27px;
+}
+.section9{
+    background-image: url('../images/bigbg.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.line{
+    width: 70px;
+    height: 2px;
+    background: #fff;
+    margin: 20px auto;
+}
+.section9 h4,.section9 p{
+    color: white;
+}
+.section9 p{
+    font-size: 15px;
+}
+.section9 img{
+    margin:0 auto;
+}
+.section10 h4{
+    margin-bottom: 60px;
+}
+.section10 .cols{
+    border: 1px solid rgba(204,204,204,1);
+    width: 100%;
+    margin-right: 0%;
+    padding: 20px 0;
+}
+.section10 .cols:hover{
+    background: #f7eeee;
+    border: 1px solid rgb(85, 138, 234);
+}
+.section10 .cols:last-child{
+    margin-right: 0px;
+}
+.section11 .line{
+    height: 1px;
+    width: 100%;
+    background: rgb(105, 105, 105);
+}
+.section11  img{
+    width: 200px;
+    height: 200px;
+    filter: grayscale(100%);
+    margin: 0 auto;
+}
+.section11  img:hover{
+    filter: grayscale(0);
+}
+.section12 blockquote{
+    border: none;
+}
+.section12 img{
+    margin: 0px auto 0;
+}
+.section12 .media{
+    padding: 0 80px;
+}
+.section12 .media .media-left{
+    margin-left: 50px;
+}
+.section12 h4{
+    font-size: 13px;
+    line-height: 2;
+    margin-left: 80px;
+}
+.section12 p{
+    color: #939393;
+    font-size: 16px;
+}
+.section13 p{
+    margin-top: 1px;
+}
+.section13 .call p{
+    font-size: 15px;
+    color: #515151;
+}
+.section13 .call p:last-child{
+    font-size: 22px;
+}
+.section13 .work p:first-child{
+    font-size: 20px;
+}
+.section13 .work p{
+    font-size: 15px;
+    color: #515151;
+}
+.section13 .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.section4{
+    
+}
+.section14 .txt-wrap{
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 15px 0;
+}
+.section14 .txt-wrap span{
+    cursor: pointer;
+}
+.section14 .txt-wrap span:first-child{
+    cursor: auto;
+}
+.section14 .container{
+    padding:  0 30px;
+}
+.section14 .blue-height{
+    color: #0088c5;
+}
+.section14 .blue-low{
+    color: #61b7ff;
+}
+.modal .modal-dialog{
+    margin: 200px auto;
+}
+.img-right{
+        float: left !important;
+}
+
+
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) { 
+	#myjumbotron .jcontent{
+		height: 200px;
+	    width: 370px;
+	    right: 0px;
+	}
+    header .icon span{
+        padding-left: 14px;
+    }
+    .section h4{
+        font-size:28px;
+    }
+    .section p{
+        font-size: 17px;
+    }
+     .section1 h3{
+        font-size: 30px;
+    }
+     .section1 p {
+        font-size: 18px;
+    }
+     #myjumbotron .jcontent h2{
+        font-size: 24px;
+    }
+    #myjumbotron .jcontent p {
+        font-size: 29px;
+    }
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) { 
+	#myjumbotron .jcontent{
+		height: 200px;
+	    width: 370px;
+	    left: 74%;
+	} 
+    header .icon span{
+        padding-left: 18px;
+    }
+    .section h4{
+        font-size: 30px;
+    }
+    .section p{
+        font-size: 18px;
+    }
+     .section1 h3{
+        font-size: 40px;
+    }
+     .section1 p {
+        font-size: 19px;
+    }
+     #myjumbotron .jcontent h2{
+        font-size: 26px;
+    }
+    #myjumbotron .jcontent p {
+        font-size: 20px;
+    }
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) { 
+	#myjumbotron{
+		height: 757px;
+	}
+	#myjumbotron .jcontent{
+		height: 500px;
+	    width: 470px;
+	    left: 70%;
+	    top: 200px;
+        margin-top: 0px;
+	} 
+	#myjumbotron .jcontent h2{
+	    font-size: 40px;
+	    margin-bottom: 70px;
+        line-height: 1.5;
+	}
+    .section h4{
+        font-size: 34px;
+    }
+    .section6 .col-md-4{
+        width: 30%;
+    }
+    .section6 .col{
+        margin-right: 3%;
+    }
+    .section10 .cols{
+        width: 24%;
+        margin-right: 1%;
+    }
+    header .icon span{
+        padding-left: 20px;
+    }
+    .img-right{
+        float: right !important;
+    }
+    .section p{
+        font-size: 19px;
+    }
+    .section1 h3{
+        font-size: 46px;
+    }
+    .section1 p {
+        font-size: 20px;
+    }
+    #myjumbotron .jcontent h2{
+        font-size: 28px;
+    }
+    #myjumbotron .jcontent p {
+        font-size: 22px;
+    }
+}

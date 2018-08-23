@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       	<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/qfy-example-css.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="font_rokaannnpg/iconfont.css">
+    </head>
+    <body>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" id="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">搜索教程</h4>
+      </div>
+      <div class="modal-body">
+         <input type="text" class="form-control" placeholder="请输入">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        <button type="button" class="btn btn-primary">搜索</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mymark"></div>
+<div id="sidebar">
+    <ul>
+    	<li class="clearfix">
+    		<div class="side-left text-center"><a href="qfy-login.html">登录</a></div>
+    		<div class="side-right text-center"><a href="qfy-login.html">注册</a></div>
+    	</li>
+    	<li class="text-center"><button type="button" class="btn sidebar-btn">客服热线 4006285729</button></li>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="qfw-model.html">模板</a></li>
+        <li><a href="selfmeal.html">套餐</a></li>
+        <li><a href="qfy-example.html">案例</a></li>
+        <li><a href="#">文档<span class="glyphicon glyphicon-plus"></span></a></li>
+        <li><a href="about.html">关于<span class="glyphicon glyphicon-plus"></span></a>
+        </li>
+    </ul>
+</div>
+<div class="nav-bar hidden-xs hidden-sm">
+	<ul class="list-unstyled">
+		<li class="icon-display current active">
+			<a href="javascript:(void(0))"><i class="we-chat"></i><b>4006285729</b></a>
+			<!-- <span><i class="we-chat"></i><e>在线客服</e></span> -->
+
+		</li>
+		<li class="icon-display"><a href="javascript:(void(0))">
+			<i class="icons icon1"></i>
+			<b>4006285729</b>
+			</a>
+		</li>
+		<li class="icon-display"><a href="javascript:void(0)"><i class="icons icon2"></i><b>4006285729</b></a></li>
+		<li><a href="javascript:void(0)"><i class="icons icon3"></i><b>4006285729</b></a></li>
+		<li class="icon-display"><a href="javascript:void(0)"><i class="icons icon4"></i><b>4006285729</b></a></li>
+	</ul>
+</div>
+<header id="header">
+	<nav class="navbar navbar-default"  id="navbar">
+	  <div class="container">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed my-collapse" data-toggle="collapse" style="float:left;">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" id="nav-center" href="#"><img src="images/logo.png" alt=""></a>
+	    </div>
+	    <ul class="nav navbar-nav navbar-left hidden-xs hidden-sm ul-left">
+	        <li><a href="index.html">首页</a></li>
+	        <li><a href="qfw-model.html">模板</a></li>
+
+	        <li><a href="selfmeal.html">套餐</a></li>
+	        <li><a href="qfy-example.html">案例</a></li>
+	        <li class="dropdown">
+	          <a href=document.html class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">文档 <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="document.html">教程中心</a></li>
+	            <li><a href="create.html">建站咨询</a></li>
+	            <li><a href="update.html">更新日志</a></li>
+	          </ul>
+	        </li>
+	        <li class="dropdown">
+	          <a href="about.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">关于 <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="about.html">公司简介</a></li>
+	            <li><a href="rulation.html">荣誉资质</a></li>
+	            <li><a href="service.html">联系客服</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+	    <div class="icon">
+	    	<span class="glyphicon glyphicon-search" data-toggle="modal" data-target="#myModal"></span>
+	    	<a href="qfy-login.html"><span href="qfy-login.html" class="glyphicon glyphicon-user"></span></a>
+	    	<span class="glyphicon glyphicon-shopping-cart"></span>
+	    </div>
+	  </div><!-- /.container-fluid -->
+	</nav>
+</header>
+<div class="phone-head">
+	<div class="phone-head-content">
+		<img src="images/qfy-example-head-img.jpg" alt="">
+		<p>起飞页是当今最领先的响应式自助建站平台，流线式网页布局设计方案，可视化图文内容编辑模式，它让网站制作和维护成为一件轻松惬意的事。无论是普通互联网用户还是专业网站制作人员，都能使用起飞页设计出最具专业水准的网站。</p>
+		<button>现在注册</button>
+	</div>
+</div>
+<div class="qfy">
+	<div class="qfy-section-one">
+		<div class="container-fluid">
+			<div class="coverbg">
+				<div class="content-one">
+				<h2>用户作品展示</h2>
+				<p>众多不懂编程的用户使用起飞页自助建站平台做出了效果非凡的网站。</p>
+				<p>也许，您也可以和他们一样出色！</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="qfy-section-two">
+		<div class="content-two">
+			<div class="container-fluid">
+				<div class="content-two-left">
+					<div class="left-nav">
+						<i>按分类浏览</i>
+						<ul>
+							<li>
+								<p class="current">所有案例</p>
+							</li>
+							<li>
+								<p>按功能分类</p>
+								<a href="">企业展示</a>
+								<a href="">产品、作品展示</a>
+								<a href="">个人展示</a>
+								<a href="">博客</a>
+								<a href="">在线商城</a>
+							</li>
+							<li class="">
+								<p>按行业分类</p>
+								<a href="">企业服务</a>
+								<a href="">文化机构</a>
+								<a href="">IT</a>
+								<a href="">贸易</a>
+								<a href="">金融</a>
+								<a href="">图媒</a>
+								<a href="">家居</a>
+								<a href="">服饰</a>
+								<a href="">旅游</a>
+								<a href="">法律服务</a>
+								<a href="">生物科技</a>
+								<a href="">能源</a>
+								<a href="">餐饮</a>
+								<a href="">汽车服务</a>
+								<a href="">公益</a>
+							</li>
+							<li>
+								<p>按语言分类</p>
+								<a href="">英语</a>
+								<a href="">日语</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="content-two-right">
+					<div class="container-fluid">
+						<ul>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg1.png" alt="">
+								<h2 class="text-center">工匠意识 中国官网</h2>
+								<p class="text-center">香港九区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg2.png" alt="">
+								<h2 class="text-center">炎树装饰</h2>
+								<p class="text-center">香港八区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg3.png" alt="">
+								<h2 class="text-center">Jay Yang 个人网站</h2>
+								<p class="text-center">日本一区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg4.png" alt="">
+								<h2 class="text-center">ebibi蓝牙耳机</h2>
+								<p class="text-center">香港五区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg5.png" alt="">
+								<h2 class="text-center">上海领赞门窗有限公司</h2>
+								<p class="text-center">香港五区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg6.png" alt="">
+								<h2 class="text-center">凯琳美国留学教育</h2>
+								<p class="text-center">美国一区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg7.png" alt="">
+								<h2 class="text-center">Bag Supplier</h2>
+								<p class="text-center">美国一区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg8.png" alt="">
+								<h2 class="text-center">内蒙古科高电力技术检测有限公司</h2>
+								<p class="text-center">香港五区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg1.png" alt="">
+								<h2 class="text-center">工匠意识 中国官网</h2>
+								<p class="text-center">香港九区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg2.png" alt="">
+								<h2 class="text-center">炎树装饰</h2>
+								<p class="text-center">香港八区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg3.png" alt="">
+								<h2 class="text-center">Jay Yang 个人网站</h2>
+								<p class="text-center">日本一区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg4.png" alt="">
+								<h2 class="text-center">ebibi蓝牙耳机</h2>
+								<p class="text-center">香港五区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg5.png" alt="">
+								<h2 class="text-center">上海领赞门窗有限公司</h2>
+								<p class="text-center">香港五区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg6.png" alt="">
+								<h2 class="text-center">凯琳美国留学教育</h2>
+								<p class="text-center">美国一区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg7.png" alt="">
+								<h2 class="text-center">Bag Supplier</h2>
+								<p class="text-center">美国一区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg8.png" alt="">
+								<h2 class="text-center">内蒙古科高电力技术检测有限公司</h2>
+								<p class="text-center">香港五区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg1.png" alt="">
+								<h2 class="text-center">工匠意识 中国官网</h2>
+								<p class="text-center">香港九区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg2.png" alt="">
+								<h2 class="text-center">炎树装饰</h2>
+								<p class="text-center">香港八区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg3.png" alt="">
+								<h2 class="text-center">Jay Yang 个人网站</h2>
+								<p class="text-center">日本一区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg4.png" alt="">
+								<h2 class="text-center">ebibi蓝牙耳机</h2>
+								<p class="text-center">香港五区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg5.png" alt="">
+								<h2 class="text-center">上海领赞门窗有限公司</h2>
+								<p class="text-center">香港五区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg6.png" alt="">
+								<h2 class="text-center">凯琳美国留学教育</h2>
+								<p class="text-center">美国一区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg7.png" alt="">
+								<h2 class="text-center">Bag Supplier</h2>
+								<p class="text-center">美国一区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg8.png" alt="">
+								<h2 class="text-center">内蒙古科高电力技术检测有限公司</h2>
+								<p class="text-center">香港五区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg1.png" alt="">
+								<h2 class="text-center">工匠意识 中国官网</h2>
+								<p class="text-center">香港九区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg2.png" alt="">
+								<h2 class="text-center">炎树装饰</h2>
+								<p class="text-center">香港八区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg3.png" alt="">
+								<h2 class="text-center">Jay Yang 个人网站</h2>
+								<p class="text-center">日本一区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg4.png" alt="">
+								<h2 class="text-center">ebibi蓝牙耳机</h2>
+								<p class="text-center">香港五区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg5.png" alt="">
+								<h2 class="text-center">上海领赞门窗有限公司</h2>
+								<p class="text-center">香港五区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg6.png" alt="">
+								<h2 class="text-center">凯琳美国留学教育</h2>
+								<p class="text-center">美国一区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg7.png" alt="">
+								<h2 class="text-center">Bag Supplier</h2>
+								<p class="text-center">美国一区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg8.png" alt="">
+								<h2 class="text-center">内蒙古科高电力技术检测有限公司</h2>
+								<p class="text-center">香港五区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg1.png" alt="">
+								<h2 class="text-center">工匠意识 中国官网</h2>
+								<p class="text-center">香港九区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg2.png" alt="">
+								<h2 class="text-center">炎树装饰</h2>
+								<p class="text-center">香港八区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg3.png" alt="">
+								<h2 class="text-center">Jay Yang 个人网站</h2>
+								<p class="text-center">日本一区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg4.png" alt="">
+								<h2 class="text-center">ebibi蓝牙耳机</h2>
+								<p class="text-center">香港五区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg5.png" alt="">
+								<h2 class="text-center">上海领赞门窗有限公司</h2>
+								<p class="text-center">香港五区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg6.png" alt="">
+								<h2 class="text-center">凯琳美国留学教育</h2>
+								<p class="text-center">美国一区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg7.png" alt="">
+								<h2 class="text-center">Bag Supplier</h2>
+								<p class="text-center">美国一区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg8.png" alt="">
+								<h2 class="text-center">内蒙古科高电力技术检测有限公司</h2>
+								<p class="text-center">香港五区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg1.png" alt="">
+								<h2 class="text-center">工匠意识 中国官网</h2>
+								<p class="text-center">香港九区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg2.png" alt="">
+								<h2 class="text-center">炎树装饰</h2>
+								<p class="text-center">香港八区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg3.png" alt="">
+								<h2 class="text-center">Jay Yang 个人网站</h2>
+								<p class="text-center">日本一区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg4.png" alt="">
+								<h2 class="text-center">ebibi蓝牙耳机</h2>
+								<p class="text-center">香港五区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg5.png" alt="">
+								<h2 class="text-center">上海领赞门窗有限公司</h2>
+								<p class="text-center">香港五区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg6.png" alt="">
+								<h2 class="text-center">凯琳美国留学教育</h2>
+								<p class="text-center">美国一区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg7.png" alt="">
+								<h2 class="text-center">Bag Supplier</h2>
+								<p class="text-center">美国一区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg8.png" alt="">
+								<h2 class="text-center">内蒙古科高电力技术检测有限公司</h2>
+								<p class="text-center">香港五区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg1.png" alt="">
+								<h2 class="text-center">工匠意识 中国官网</h2>
+								<p class="text-center">香港九区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg2.png" alt="">
+								<h2 class="text-center">炎树装饰</h2>
+								<p class="text-center">香港八区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg3.png" alt="">
+								<h2 class="text-center">Jay Yang 个人网站</h2>
+								<p class="text-center">日本一区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg4.png" alt="">
+								<h2 class="text-center">ebibi蓝牙耳机</h2>
+								<p class="text-center">香港五区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg5.png" alt="">
+								<h2 class="text-center">上海领赞门窗有限公司</h2>
+								<p class="text-center">香港五区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg6.png" alt="">
+								<h2 class="text-center">凯琳美国留学教育</h2>
+								<p class="text-center">美国一区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg7.png" alt="">
+								<h2 class="text-center">Bag Supplier</h2>
+								<p class="text-center">美国一区</p>
+							</li>
+							<li>
+								<img src="images/qfy-example-section-two-right-bg8.png" alt="">
+								<h2 class="text-center">内蒙古科高电力技术检测有限公司</h2>
+								<p class="text-center">香港五区</p>
+							</li>
+							
+							<button class="right-btn">查看更多作品</button>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+<footer>
+	<div class="container yep-5 text-left">
+    	<div class="yep-5-left">
+    		<span class="yep-span-3">起飞页&nbsp;·&nbsp;优雅做网站</span>
+	    	<p>2014年起，专注于响应式建站领域。简便、美观、快速、稳定、安全是我们不懈的追求。</p>
+	    	<p>在线客服：<a href="">点击交谈</a></p>
+	    	<p>客服热线：4006-285-729 / 0512-62969169</p>
+	    	<span class="yep-span-1">合作伙伴：</span>
+	    	<ul class="list-unstyled">
+	    		<img src="images/paypal.png" alt=""> 		
+	    	</ul>
+    	</div>
+    	<div class="yep-5-right">
+    		<div class="col-lg-2 col-md-2">
+    			<span class="yep-span-2 h4"><strong>公司信息</strong></span>
+	    		<ul class="list-unstyled">
+	    			<li><a href="">公司介绍</a></li>
+	    			<li><a href="">服务条款</a></li>
+	    			<li><a href="">法律声明</a></li>
+	    			<li><a href="">可接受服务</a></li>
+	    			<li><a href="">免责声明</a></li>
+	    		</ul>
+    		</div>
+    		<div class="col-lg-2 col-md-2">
+    			<span class="yep-span-2 h4"><strong>技术支持</strong></span>
+	    		<ul class="list-unstyled">
+	    			<li><a href="">联系客服</a></li>
+	    			<li><a href="">建站教程</a></li>
+	    			<li><a href="">更新日志</a></li>
+	    			<li><a href="">建站商城</a></li>
+	    			<li><a href="">API 文档</a></li>
+	    			<li><a href="">博客</a></li>
+	    			<li><a href="">建站知乎</a></li>
+	    		</ul>
+    		</div>
+    		<div class="col-lg-4 col-md-4">
+    			<span class="yep-span-2 h4"><strong>快速入口</strong></span>
+	    		<ul class="list-unstyled">
+	    			<li><a href="">购买套餐和服务</a></li>
+	    			<li><a href="">提交域名备案流程</a></li>
+	    			<li><a href="">申请域名设定服务</a></li>
+	    			<li><a href="">在线格式转换</a></li>
+	    			<li><a href="">检测网站为什么打不开</a></li>
+	    			<li><a href="">检测网站为什么打开很慢</a></li>
+	    			<li><a href="">下载宣传册</a></li>
+	    		</ul>
+    		</div>
+    		<div class="col-lg-4 col-md-4">
+    			<span class="yep-span-2 h4"><strong>最新资讯</strong></span>
+	    		<ul class="list-unstyled">
+	    			<li><a href="">如何快速提高网站转化率—引导引导引导引导引导引导</a></li>
+	    			<li><a href="">如何在标题中使用艺术字体？</a></li>
+	    			<li><a href="">如何在网站中使用中文云字体（Web fo...</a></li>
+	    			<li><a href="">系统升级日志: V4.89</a></li>
+	    			<li><a href="">如何快速提高网站转化率—允许...</a></li>
+	    		</ul>
+    		</div>
+    	</div>
+    </div>
+    <div class="container yep-6 text-center">
+    	<p>拓展您的业务，展示您的风采，或者只是尝试一下新的想法。 起飞页自助建站平台，拉近您与互联网的距离！</p>
+    </div>
+    <div class="container yep-7 text-center">
+    	<p>
+    	增值电信业务经营许可证苏B2-20150321   苏ICP备09008221号-3
+    	<a href=""><img src="images/litt.png" alt=""></a>苏公网安备 32059002001616号  
+    	</p>
+    </div>
+	<div class="container yep-8">
+		<a href=""><img src="images/big.png" alt=""></a>
+	</div>
+	<div class="container text-center yep-9">
+		<p>版权所有 2013-2018 苏州卡达网络科技有限公司</p>
+	</div>
+</footer>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/js.js"></script>
+<script>
+	var num=1;
+	var num1=$('.qfy .qfy-section-two .content-two .content-two-right ul li').length;
+	var num2=8;
+	for(var i=8;i<=num1;num1--){
+		$('.qfy .qfy-section-two .content-two .content-two-right ul li').eq(num1).addClass('hidden2');
+			console.log(num1);
+	}
+
+	$('.qfy .qfy-section-two .content-two .content-two-right .right-btn').click(function(event) {
+			/* Act on the event */
+			for (var j=0;j<8;j++) {
+				$('.qfy .qfy-section-two .content-two .content-two-right ul li').eq(num2).removeClass('hidden2');
+				num2++;
+			}
+			console.log(num2);
+		});
+
+	$('.qfy .qfy-section-two .content-two .content-two-left ul li').click(function(event) {
+		$(this).addClass('show');
+		$(this).children('p').addClass('current');
+		$(this).siblings().removeClass('show');
+		$(this).siblings().children('p').removeClass('current');
+	});
+	$('.qfy .qfy-section-two .content-two .content-two-left i').click(function(event) {
+		/* Act on the event */
+		if(num%2!=0){
+		$('.qfy .qfy-section-two .content-two .content-two-left ul').slideDown(400);
+		$(this).html('关闭');
+		}
+		if(num%2==0){
+		$('.qfy .qfy-section-two .content-two .content-two-left ul').slideUp(400);
+		$(this).html('按分类浏览');
+		}
+		num++;	
+	});
+	$(window).resize(function() {
+		if($(window).width()>1000){
+		$('.qfy .qfy-section-two .content-two .content-two-left ul').css('display', 'block');
+	}
+		// if($(window).width()<1000){
+		// 	$('.qfy .qfy-section-two .content-two .content-two-right ul').fadeOut(100).fadeIn(300);
+		// }
+	});
+	
+</script>
+    </body>
+</html>
